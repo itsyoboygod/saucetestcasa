@@ -1,0 +1,32 @@
+@media (max-width: 800px){
+    .new{
+          margin: 50px 0 0 20px !important;
+        }
+      }
+
+.content-section-new{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+    
+.new{
+    display: flex;
+    font-family: monospace;
+    font-size: 3rem;
+    align-items: center;
+    width: 80%;
+    border-bottom: solid 0.1px;
+
+    
+}
+
+.new h1{
+    margin: 0;
+    font-size: 4rem;
+}
+
+
+.new span{
+    margin: 10px 0px 0px 3px
+}    

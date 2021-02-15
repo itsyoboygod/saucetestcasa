@@ -1,0 +1,78 @@
+.loadbox-div {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.loadbox {
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px 10px black;
+    background-color: lightgrey;
+    transition: 0.3s;
+}
+
+.loadbox:hover {
+    box-shadow: 0px 0px 0px 0px;
+    background-color: lightgrey;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.loadbox-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.loadbox-bottom .dropdown {
+    margin-top: 3px;
+}
+
+.loadbox-bottom-circle {
+    display: flex;
+    background-color: lightgrey;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/saucememes-f125d.appspot.com/o/profile%2F20200618_170549.jpg?alt=media&token=cbf0f380-948c-4815-8cfe-8f944c863008);
+    display: inline-block;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.loadbox-bottom-circle:hover {
+    box-shadow: 0px 0px 0px 0px;
+    background-color: lightgrey;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.loadbox-bottom-txt {
+    display: flex;
+    width: 135px;
+    /* box-shadow: 5px 5px 10px black; */
+    height: auto;
+    /* background-color: lightgrey; */
+}
+
+.loadbox-bottom-txt p {
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.loadbox-bottom-txt:hover {
+    box-shadow: 0px 0px 0px 0px;
+    /* background-color: #888; */
+    transition: 0.3s;
+    cursor: pointer;
+}

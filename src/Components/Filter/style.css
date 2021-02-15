@@ -1,0 +1,28 @@
+.content-filter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 50%;
+    
+}
+
+.search-div input{
+    width: 50%;
+
+    
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

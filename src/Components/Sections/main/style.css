@@ -1,0 +1,143 @@
+@media (max-width: 800px){
+.main{
+      margin: 50px 0 0 20px !important;
+    }
+
+    .grid ul{
+        flex-direction: column !important;
+    }
+
+.left-arrow , .right-arrow{
+    display: none;
+}
+
+.grid-box-thumbnail{
+    width: 300px !important;
+    height: 150px !important;
+}
+
+.grid-box-title{
+    width: 230px !important;
+}
+  }
+
+  .content-section-main{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+.main{
+    display: flex;
+    font-family: monospace;
+    font-size: 3rem;
+    color: black;
+    align-items: center;
+    border-bottom: solid 0.1px;
+    width: 80%;
+    
+
+}
+
+.main h1{
+    margin: 0;
+    font-size: 4rem;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.section-title{  
+    margin-top: 20px;
+}
+
+.main span{
+    margin: 10px 0px 0px 3px
+}  
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    /* background-color: lightgray; */
+
+}
+
+.grid ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.left-arrow , .right-arrow{
+    font-size: 2rem;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.left-arrow:hover, .right-arrow:hover{
+    font-size: 3rem;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0 0 15px 0 hsla(0,0%,50.6%,.22);
+
+}
+
+.grid li{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    transition: 0.2s;
+
+}
+
+.grid li:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+
+.grid-box-thumbnail{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+}
+
+.grid-box-row-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.grid-box-profile{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.grid-box-title{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+
+

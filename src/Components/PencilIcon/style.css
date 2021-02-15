@@ -1,0 +1,183 @@
+@media (max-width: 800px) {
+    .modal-content {
+        padding-top: 0 !important;
+        width: 100% !important;
+    }
+
+    .ReactModal__Content {
+        transform: translate(0%, 0) !important;
+        width: 68% !important;
+    }
+
+    form span{
+        text-align: center !important;
+    }
+
+    .form-clock-time{
+        flex-direction: column !important;
+    }
+}
+
+.form-clock-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #id-navtop-input-modal-title{
+      display: flex;
+      width: 93%;
+      justify-content: center;
+      height: 30px;
+      border: none;
+      border-radius: 3px;
+      margin: 15px auto;
+      outline: none;
+      
+  }
+  
+  .form-clock-time{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  form span{
+    font-size: 2rem;
+  }
+  
+
+
+
+
+
+
+
+.modal-content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#btn-close-modal {
+    border: none;
+    padding: 0px;
+    background-color: white;
+    font-size: 3rem;
+    outline: none;
+    line-height: 30px;
+    transition: 0.5s;
+}
+
+#btn-close-modal:hover {
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.ReactModal__Content {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    width: 50%;
+    transform: translate(40%, 20%);
+}
+
+.newmodal{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+
+#myBtn-pencil {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    width: 100%;
+    padding: 0;
+    font-size: 3rem;
+    background-color: #303030;
+}
+
+/* =============================================== */
+
+#modal-posts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+.navtop-input-modal {
+    width: 80px;
+    margin: 5px auto;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+/* .navtop-file-input-modal-border-doted {
+    display: flex !important;
+    flex-direction: column;
+    width: 97%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: solid 1px;
+    border: 2px dashed grey;
+    justify-content: center;
+} */
+
+/* .navtop-file-input-modal {
+    width: inherit !important;
+    outline: none;
+    padding: 50% 0 50% 0;
+    cursor: pointer;
+    max-width: max-content;
+    margin: inherit;
+} */
+
+/* .clear-prvw {
+    border: none;
+    background-color: lightgray;
+    border-top: 2px dashed grey;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+} */
+
+#btn-add-post-modal {
+    display: flex;
+    width: 95%;
+    height: 40px;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    background-color: grey;
+    margin: 10px;
+}
+
+#btn-add-post-modal:hover {
+    cursor: pointer;
+    border: solid 2px white;
+    color: white;
+}
+
+#btn-add-post-modal h3 {
+    margin: 10px;
+}

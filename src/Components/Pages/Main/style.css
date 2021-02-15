@@ -1,0 +1,10 @@
+.content-page-main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.page-main{
+    display: flex;
+    justify-content: center;
+}

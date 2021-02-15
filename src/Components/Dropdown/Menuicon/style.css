@@ -1,0 +1,19 @@
+@media (max-width: 800px){
+    .menuicon span{
+        font-size: 1rem !important;
+    }
+}
+
+.menuicon span{
+    font-size: 1.8rem;
+}
+
+.menuicon span:hover{
+    text-shadow: 1.5px 1.5px 4px #999;
+    cursor: pointer;
+}
+
+.closeSideMenu{
+    left: -72px;
+    transition: 0.5s !important;
+}
